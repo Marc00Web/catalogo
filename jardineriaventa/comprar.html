@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPRAS</title>
+    <link rel="stylesheet" href="comprar.css" type="text/css"/>
+</head>
+<!DOCTYPE html>
+    <html>
+     <head>    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>tabla HTML con JavaScript</title>
+    <script src="formulario.js"></script>
+    </head>
+<body>
+    <form>
+        <center>
+        <label><h1> ¿Cual desea comprar? </h1></label>
+    </center>
+    <hr>
+    <center>
+    <br><input type="text" name="caja[]" id="aula"> FLOR 
+
+<br><input type="text" name="caja[]"> PRECIO
+
+<br><input type="text" name="caja[]"> CANTIDAD
+
+<br><input type="text" name="caja[]"> TOTAL 
+
+<br><br><input type="button" value="Insertar" onclick="insertarTabla()"> </br>
+
+  </br>
+
+  <table border="1" cellspacing="0" style="border-collapse: collapse;">
+
+    
+
+      <tr>
+
+        <th>FLOR</th>
+
+        <th>PRECIO</th>
+
+        <th>CANTIDAD</th>
+
+        <th> TOTAL </th>
+
+       </tr>
+
+     
+
+     <tbody id="miTabla">
+
+     </tbody>
+
+   </table>
+
+   <br>
+
+   <button onclick="cuantasFilas()">Consultar incidencias</button>
+
+   <p id="demo"></p>
+
+   <p id="demo2"></p>
+</center>
+    <center>
+        <label><h1> DATOS DEL COMPRADOR </h1> </label>
+    
+        <br>
+        <label> Nombre </label><input type=" ">
+        <br>
+        <br>
+        <label>Apellidos </label><input type=" ">
+        <br>
+        <br>
+        <label> Numero telefonico </label><input type=" ">
+        <br>
+        <br>
+        <label> Domicilio </label><input type=" ">
+        <br>
+        <br>
+        <label> ¿Encontro lo que buscaba? </label>
+        <label> Si </label>
+        <input type="checkbox"name="opcion[]">
+        <label> No </label>
+        <input type="checkbox" name="opcion2[]">
+        <br>
+        <br>
+        <label> Genero </label>
+        <br>
+        <label> Femenino </label>
+        <input type="radio" name="femenino []">
+        <label> Masculino </label>
+        <input type="radio" name=" masculino []">
+        <br><br>
+        <label> Fecha de compra </label>
+        <input type="date" name=" fecha []">
+    </center>
+    <br><br><br>
+    <center>
+        <button><a href="flores.html"> REGRESAR </a></button> 
+        <button><a href="despedida.html"> COMPRA YA!! </a></button> 
+
+      </center>
+    </form>
+    
+</body>
+</html>

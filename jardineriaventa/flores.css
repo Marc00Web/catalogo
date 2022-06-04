@@ -1,0 +1,55 @@
+/*body{
+    margin: 0;
+    padding: 0;
+    background-image:url(Qatar.jpg);
+    background-size: cover;
+    background-position:center;
+    font-family:sans-serif;
+    text-align: center;
+}*/
+body{
+    background-color: 
+    #66ff00b5 ;
+}
+h1{
+    background-color: #339900   ;
+    font-family: Jokerman;
+}
+
+#header{
+    margin: auto;/*Tamaño del menu*/
+    width: 400px;
+    font-family: verdana;
+}
+ul{
+    list-style: none;/*Desaparecde las viñetas*/
+}
+.nav li a{
+    background-color: rgb(55, 255, 0);
+    color:rgb(0, 135, 5);                    /*Color de la lista*/
+    text-decoration: none;
+    padding: 5px 20px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: rgb(224, 255, 50) ;/*Color al pase de menu*/
+}
+.nav>li{
+    float:left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover>ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li{
+    right: -20px;
+    top: 0px;
+
+}
